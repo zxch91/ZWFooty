@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="wrapper" class="container">
+    <header class="center-align">
+      <h1 class="header">ZWFooty Guide</h1>
+    </header>
+
+    <ul class="collapsible popout">
+      <li class="active">
+        <div class="collapsible-header">Login Page</div>
+        <div class="collapsible-body">
+        <h4>Login Page</h4>
+        <p>On the Log In page, please use the details as follows:</p>
+        <p>Username: eee</p>
+        <p>Password: eee</p>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header">News and Articles</div>
+        <div class="collapsible-body">
+          <h4>News and Articles</h4>
+          <p>The News and Articles section shows users the latest news in the football world.</p>
+          <p>They are able to go onto these articles and read comments from other users of the ZWFooty app sparking discussion</p>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header">Leagues</div>
+        <div class="collapsible-body">
+          <h4>Leagues</h4>
+          <p>In the leagues section you can choose which leagues you would like to view in a spinner in the top left of the page</p>
+          <p>When on the league you want to view, you can favorite teams which you want in your myClub section</p>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header">Results</div>
+        <div class="collapsible-body">
+          <h4>Results</h4>
+          <p>Here you can see the most recent results from leagues covered on the ZWFooty app</p>
+          <p>You will be given the choice of activating a drop-down menu which will show further statistics about the game</p>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header">My Club</div>
+        <div class="collapsible-body">
+          <h4>My Club</h4>
+          <p>Where the user can see what teams they've added to their club, essentially their favorite teams</p>
+        </div>
+      </li>
+    </ul>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.collapsible');
+        var instances = M.Collapsible.init(elems);
+      });
+    </script>
+  </div>
+</body>
+
+</html>

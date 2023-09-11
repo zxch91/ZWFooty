@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CW</string>
+    <string name="navigation_drawer_close">"Close "</string>
+    <string name="navigation_drawer_open">Open</string>
+
+    <string-array name="leagues_array">
+        <item>PREMIERLEAGUE</item>
+        <item>LALIGA</item>
+    </string-array>
+</resources>

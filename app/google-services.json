@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "233483611293",
+    "project_id": "zwfooty",
+    "storage_bucket": "zwfooty.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233483611293:android:798de0cf18c30bf9c57874",
+        "android_client_info": {
+          "package_name": "com.example.cw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233483611293-6g87duiath2icui4jgcd1jlpog1tktsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsIl44bbt3veHQYWIC24XugbCPtOaev9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233483611293-6g87duiath2icui4jgcd1jlpog1tktsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

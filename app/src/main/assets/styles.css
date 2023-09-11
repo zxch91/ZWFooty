@@ -1,0 +1,68 @@
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  background: linear-gradient(270deg, #ffffff, #808080, #000000);
+  background-size: 600% 600%;
+  animation: gradientBG 15s ease infinite;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  #wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .section {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active,
+  .section:hover {
+    background-color: #ccc;
+  }
+  
+  .sectionContent {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.4s ease-out, opacity 0.4s ease-out;
+  }
+  
+  .active + .sectionContent {
+    max-height: 500px;
+    opacity: 1;
+  }
+  
